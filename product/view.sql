@@ -3,7 +3,7 @@
 # A query to create a view which contains all associated attributes including parent-child relation.
 # Depends on https://github.com/mothership-gmbh/magento2-sql/blob/master/attributes/view.sql
 ```
-create view view_all as
+create view view_all as 
   SELECT        
   
    ce.entity_id,
@@ -15,7 +15,6 @@ create view view_all as
     ea.backend_type,
     ea.source_model,
     e_eaov.`option_id`,
-    ea.*,
 
     CASE ea.backend_type
     WHEN 'static' THEN
