@@ -4,7 +4,7 @@ A query to create a view which contains all associated attributes including pare
 
 # Query
 
-Depends on: 
+Depends on [the attributes view](../attributes/view.sql) 
 
 ```
 create view view_all as
