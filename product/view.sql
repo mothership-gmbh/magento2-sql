@@ -1,8 +1,7 @@
 # Abstract
 # 
 # A query to create a view which contains all associated attributes including parent-child relation.
-# Depends on https://github.com/mothership-gmbh/magento2-sql/blob/master/product/view.sql
-
+# Depends on https://github.com/mothership-gmbh/magento2-sql/blob/master/attributes/view.sql
 ```
 create view view_all as
   SELECT        
